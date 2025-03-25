@@ -1,28 +1,9 @@
 class Bag{
-static String brand = "NEWHEY";
-static String color = "Brown";
-static String department= "Men";
-static int price = 3200;
-static String dateFirstAvailable = "‎March 11, 2018";
 public static void main(String args[]){
-System.out.println("The Bag brand is "+brand);
-System.out.println("The Bag color is "+color);
-System.out.println("The Department of Bag is "+department);
-System.out.println("The Date First Available of Bag is "+dateFirstAvailable);
-System.out.println("The Bag price is "+price);
-System.out.println("After initilization");
-updateBag();
-System.out.println("The Bag brand is "+brand);
-System.out.println("The Bag color is "+color);
-System.out.println("The Department of Bag is "+department);
-System.out.println("The Date First Available of Bag is "+dateFirstAvailable);
-System.out.println("The Bag price is "+price);
-}
-public static void updateBag(){
-	brand = "Wildcraft";
-	color = "black";
-	department = "Men";
-	price = 3000;
-	dateFirstAvailable = "Dec 13, 2020";
+System.out.println("MOKOBARA The Transit Backpack ");
+System.out.println("About this:");
+System.out.println("CRAFTED WITH INDUSTRY BEST PREMIUM MATERIALS: Materials: Vegan leather and nylon fabric, Casing: Soft, Water resistant: Yes");
+System.out.println("MOST FEATURE RICH BACKPACK: Front bucket pocket: Slip pockets, Zippered pocket, Flat opening tech compartment: Pockets to store all your tech accessories, Padded laptop compartment with lock strap, Fits up to a 15.6" laptop inTransit Backpack - 30L");
+System.out.println("INDUSTRY BEST FUNCTIONAL BACKPACK: 2 Hidden bottle/umbrella pocket, Luggage sleeve, Silicon grab handle, Ergonomic padded shoulder straps, Breathable air mesh, Easy length adjustment buckles");
 }
 }

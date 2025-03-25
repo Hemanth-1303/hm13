@@ -1,30 +1,9 @@
 class Mouse{
-static 	String brand = "TMKB Technology Mechanical KeyBoard";
-static String color = "White";
-static String connectivityTechnology= "USB";
-static int price = 1500;
-static String specialFeature = "Drag-Free Paracord, High-Precision Optical Sensor"; 
 public static void main(String args[]){
-
-System.out.println("The Mouse brand is "+brand);
-System.out.println("The Mouse color is "+color);
-System.out.println("The connectivity technology of Mouse is "+connectivityTechnology);
-System.out.println("The Special Feature of Mouse is "+specialFeature);
-System.out.println("The Mouse price is "+price);
-System.out.println("After initialization");
-updateMouse();
-System.out.println("The Mouse brand is "+brand);
-System.out.println("The Mouse color is "+color);
-System.out.println("The connectivity technology of Mouse is "+connectivityTechnology);
-System.out.println("The Special Feature of Mouse is "+specialFeature);
-System.out.println("The Mouse price is "+price);
-
-}
-public static void updateMouse(){
-	brand = "Zebronics";
-	color = "White";
-	connectivityTechnology = "USB";
-	price = 1000;
-	specialFeature = "Drag-Free Paracord";
+System.out.println("Arctic Fox Wired USB Gaming Mouse with Breathing Lights and DPI Upto 3600");
+System.out.println("About this:");
+System.out.println("Ergonomic Design, Up to 3600 DPI tracking, Hand orientation: Ambidextrous");
+System.out.println("Breathing LED light and USB Type: USB 3.0, Cable type: USB, Wire length: 135 cm");
+System.out.println("Compatability : MAC, Windows and Android , Rubber soft surface grip, Works on most surfaces");
 }
 }

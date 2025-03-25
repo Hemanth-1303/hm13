@@ -1,32 +1,10 @@
 class Ac{
-static	String brand = "FLOWBREEZE";
-static String color = "White";
-static String capacity= "2 Gallons";
-static int price = 9000;
-static String noiseLevel = "49db";;
-static String voltage = "110 Volts";
 public static void main(String args[]){
-System.out.println("The Ac brand is "+brand);
-System.out.println("The Ac color is "+color);
-System.out.println("The Capacity of Ac is "+capacity);
-System.out.println("The Ac price is "+price);
-System.out.println("The Ac Noise level is "+noiseLevel);
-System.out.println("The Ac Voltage is "+voltage);
-System.out.println("After initilization");
-updateAc();
-System.out.println("The Ac brand is "+brand);
-System.out.println("The Ac color is "+color);
-System.out.println("The Capacity of Ac is "+capacity);
-System.out.println("The Ac price is "+price);
-System.out.println("The Ac Noise level is "+noiseLevel);
-System.out.println("The Ac Voltage is "+voltage);
-}
-public static void updateAc(){
-	brand = "Blue star";
-	color = "Black";
-	capacity = "3 Gallons";
-	price = 10000;
-	noiseLevel = "40db";
-	voltage = "100 Volts";
+System.out.println("Daikin 1.5 Ton 3 Star Inverter Split AC ");
+System.out.println("About this:");
+System.out.println("split ac with inverter swing compressor and hepta sense: dew clean technology; triple display; pm 2.5 filter to ensure healthy air");
+System.out.println("capacity 1.5 ton: suitable for small sized rooms (111 to 150 sq.ft); 572 cfm with an air throw of 16 meters");
+System.out.println("warranty: 1 years on product, 5 years on pcb, 10 years on compressor");
+System.out.println("copper condenser coil with patented dnns self heal coating for low maintenance & enhanced durability");
 }
 }
