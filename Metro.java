@@ -9,37 +9,37 @@ class Metro {
     
     Metro() {
         this("Unnamed Metro");
-        System.out.println("Constructor 1: No parameters");
+        System.out.println("Constructor with No parameters");
     }
 
     
     Metro(String name) {
         this(name, "Unknown City");
-        System.out.println("Constructor 2: Name initialized");
+        System.out.println("Constructor with Name initialized");
     }
 
     
     Metro(String name, String city) {
         this(name, city, 4); 
-        System.out.println("Constructor 3: Name and City initialized");
+        System.out.println("Constructor with Name and City initialized");
     }
 
     
     Metro(String name, String city, int numberOfCars) {
         this(name, city, numberOfCars, 20.0); 
-        System.out.println("Constructor 4: Name, City, and Number of Cars initialized");
+        System.out.println("Constructor with Name, City, and Number of Cars initialized");
     }
 
     
     Metro(String name, String city, int numberOfCars, double length) {
         this(name, city, numberOfCars, length, 500); 
-        System.out.println("Constructor 5: Name, City, Number of Cars, and Length initialized");
+        System.out.println("Constructor with Name, City, Number of Cars, and Length initialized");
     }
 
     
     Metro(String name, String city, int numberOfCars, double length, int capacity) {
         this(name, city, numberOfCars, length, capacity, true); 
-        System.out.println("Constructor 6: Name, City, Number of Cars, Length, and Capacity initialized");
+        System.out.println("Constructor with Name, City, Number of Cars, Length, and Capacity initialized");
     }
 
     
@@ -50,7 +50,7 @@ class Metro {
         this.length = length;
         this.capacity = capacity;
         this.isElectric = isElectric;
-        System.out.println("Constructor 7: All variables initialized");
+        System.out.println("Constructor with All variables initialized");
     }
 
     void display() {
