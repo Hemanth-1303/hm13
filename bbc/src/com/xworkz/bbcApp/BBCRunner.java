@@ -14,6 +14,7 @@ public class BBCRunner {
         bccDto.setPreferences(News.National);
 
         BBC bbc = new BBC();
+        bbc.validateUser(bccDto);
         if(bbc.User(bccDto)){
             System.out.println("successfull");
         }
