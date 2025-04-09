@@ -3,12 +3,14 @@ package com.xworkz.bbcApp.bbc;
 import com.xworkz.bbcApp.bbcdto.BCCDto;
 
 public class BBC {
+    BBC  bbc;
     public  boolean User(BCCDto bbcDto){
         boolean isUserRegisterd = false;
         boolean uservalid = validateUser(bbcDto);
-        if(uservalid == true )
+        if(uservalid == true ){
+            this.bbc = bbc;
             isUserRegisterd = true;
-        else{
+        }else{
             System.out.println("not register");
         }
         return  isUserRegisterd;
